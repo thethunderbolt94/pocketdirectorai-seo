@@ -1,0 +1,299 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "AI Product Photos for Etsy Sellers — Professional Images Without a Studio",
+  description:
+    "Generate beautiful lifestyle product photos for your Etsy shop with AI. No photographer, no studio. Start free with 200 credits.",
+  alternates: { canonical: "https://pocketdirectorai.com/etsy-sellers" },
+  openGraph: {
+    title: "AI Product Photos for Etsy Sellers — Professional Images Without a Studio",
+    description:
+      "Generate beautiful lifestyle product photos for your Etsy shop with AI. No photographer, no studio. Start free with 200 credits.",
+    type: "website",
+    url: "https://pocketdirectorai.com/etsy-sellers",
+  },
+};
+
+export default function EtxySellersPage() {
+  return (
+    <main className="bg-white text-gray-900">
+      {/* Nav */}
+      <header className="border-b border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+          <Link href="/" className="text-xl font-bold text-indigo-600">
+            Pocket Director AI
+          </Link>
+          <a
+            href="https://app.pocketdirectorai.com/signup"
+            className="bg-indigo-600 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-indigo-700 transition-colors"
+          >
+            Start Free
+          </a>
+        </div>
+      </header>
+
+      {/* Hero */}
+      <section className="bg-gradient-to-b from-indigo-50 to-white py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-indigo-100 text-indigo-700 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
+            Trusted by handmade and vintage Etsy sellers
+          </div>
+          <h1 className="text-5xl font-extrabold leading-tight tracking-tight mb-6 text-gray-900">
+            Etsy Product Photos{" "}
+            <span className="text-indigo-600">That Get Clicks</span>
+          </h1>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+            Beautiful lifestyle imagery that makes your handmade products look like they belong in a
+            boutique catalog — without hiring a photographer or renting a studio.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://app.pocketdirectorai.com/signup"
+              className="w-full sm:w-auto bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200"
+            >
+              Start Free — 200 Credits
+            </a>
+            <a
+              href="#benefits"
+              className="w-full sm:w-auto border border-gray-300 text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-indigo-300 hover:text-indigo-600 transition-colors"
+            >
+              See Examples
+            </a>
+          </div>
+          <p className="text-sm text-gray-400 mt-4">No credit card required. 200 free credits on signup.</p>
+        </div>
+      </section>
+
+      {/* Pain Point Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">
+            The Photography Problem No One Talks About
+          </h2>
+          <div className="bg-red-50 border border-red-100 rounded-2xl p-8 text-left">
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              Photographers charge <strong>$300–$800 per product</strong>. For an Etsy seller with
+              50 items, that's <strong>$15,000–$40,000 just for photography</strong> — before you've
+              sold a single item.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              And even if you can afford it, studio photography takes 2–3 weeks. You can't update
+              your listing photos for seasonal promotions. You can't quickly test which background
+              your customers respond to.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed">
+              Pocket Director AI changes the economics entirely. Generate professional lifestyle
+              photos for <strong>any product in your shop</strong> — in 4 minutes, for a fraction of
+              the cost.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="bg-indigo-600 py-10 px-4">
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+          <div>
+            <div className="text-3xl font-extrabold">$0</div>
+            <div className="text-indigo-200 text-sm mt-1">Photographer cost</div>
+          </div>
+          <div>
+            <div className="text-3xl font-extrabold">4 min</div>
+            <div className="text-indigo-200 text-sm mt-1">vs. weeks of scheduling</div>
+          </div>
+          <div>
+            <div className="text-3xl font-extrabold">8</div>
+            <div className="text-indigo-200 text-sm mt-1">Images per product upload</div>
+          </div>
+          <div>
+            <div className="text-3xl font-extrabold">500+</div>
+            <div className="text-indigo-200 text-sm mt-1">Scene and style presets</div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits */}
+      <section className="py-20 px-4" id="benefits">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <h2 className="text-3xl font-bold mb-4">Built for the Way Etsy Sellers Actually Work</h2>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">
+              Every feature is designed around the unique needs of handmade, vintage, and craft
+              product sellers.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            {[
+              {
+                icon: "🌸",
+                title: "Lifestyle Scenes That Match Your Aesthetic",
+                description:
+                  "Place your candles on a rustic wooden table, your jewelry on linen fabric, your ceramics in a cozy kitchen. Choose from 500+ scene presets that match the handmade, artisan aesthetic Etsy shoppers love.",
+              },
+              {
+                icon: "🍂",
+                title: "Seasonal and Holiday Variants",
+                description:
+                  "Generate spring, summer, fall, and winter versions of your product listings in minutes. Update your Etsy shop for every holiday season without a single reshoot.",
+              },
+              {
+                icon: "📐",
+                title: "Multiple Angles from One Upload",
+                description:
+                  "Upload a single hero photo and generate front, side, 45°, detail, and flat-lay compositions automatically. Give shoppers every perspective they need to hit 'Add to Cart'.",
+              },
+              {
+                icon: "💰",
+                title: "Pricing That Makes Sense for Small Sellers",
+                description:
+                  "At $15.20/month, Pocket Director costs less than the tip for a single photographer session. Unlimited generations mean you can refresh your entire catalog whenever you want.",
+              },
+            ].map((benefit) => (
+              <div
+                key={benefit.title}
+                className="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:border-indigo-200 transition-colors"
+              >
+                <div className="text-3xl mb-4">{benefit.icon}</div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">{benefit.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="bg-gray-50 py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4">How It Works</h2>
+          <p className="text-gray-500 text-lg mb-14">
+            No design skills needed. No studio equipment. Just your product and 4 minutes.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                step: "01",
+                title: "Upload Your Product Photo",
+                description:
+                  "Snap a photo with your phone — any background works. Our AI isolates your product and prepares it for scene compositing.",
+              },
+              {
+                step: "02",
+                title: "Choose a Lifestyle Scene",
+                description:
+                  "Pick from 500+ scene presets designed for handmade, vintage, and artisan products. Linen, wood, marble, outdoor, seasonal — all available.",
+              },
+              {
+                step: "03",
+                title: "Download and List",
+                description:
+                  "Your 8 professional images are ready in under 4 minutes. Download, upload to Etsy, and watch your click-through rate climb.",
+              },
+            ].map((step) => (
+              <div key={step.step} className="text-center">
+                <div className="w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-5">
+                  {step.step}
+                </div>
+                <h3 className="text-lg font-bold mb-2">{step.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{step.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial */}
+      <section className="py-20 px-4">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-indigo-50 border border-indigo-100 rounded-2xl p-10">
+            <div className="flex items-center gap-1 mb-6">
+              {[...Array(5)].map((_, i) => (
+                <svg key={i} className="w-5 h-5 text-indigo-500 fill-current" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              ))}
+            </div>
+            <blockquote className="text-xl text-gray-700 leading-relaxed mb-6 italic">
+              "I make hand-poured soy candles and was using my iPhone photos on white cardboard as
+              my listing images. After switching to Pocket Director AI, my click-through rate nearly
+              doubled. The lifestyle scenes make my candles look like a luxury brand. I went from 3
+              sales a week to 20+ after updating my photos."
+            </blockquote>
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold">
+                A
+              </div>
+              <div>
+                <div className="font-bold text-gray-900">Amanda R.</div>
+                <div className="text-sm text-gray-500">Etsy seller — handmade soy candles, 4+ years</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="bg-gray-50 py-20 px-4">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-12">Questions from Etsy Sellers</h2>
+          <div className="space-y-6">
+            {[
+              {
+                q: "Does the AI work well with handmade and artisan products?",
+                a: "Yes — Pocket Director is especially effective for handmade products like candles, jewelry, ceramics, textiles, and skincare. We have 500+ scene presets specifically designed for artisan aesthetics: natural wood, linen, marble, floral, outdoor, and seasonal settings.",
+              },
+              {
+                q: "My product photos aren't very good — will it still work?",
+                a: "Our AI can work from any photo, including smartphone snapshots in natural light. For best results, make sure the product is in focus and the background isn't the same color as your product. If your source photo is blurry or very dark, results may be affected.",
+              },
+              {
+                q: "Can I use these images in my Etsy listings and on social media?",
+                a: "Yes. All images generated with Pocket Director AI come with full commercial rights. Use them in Etsy listings, Instagram, Pinterest, Facebook ads, your own website — anywhere you sell or promote your products.",
+              },
+            ].map((faq, i) => (
+              <div key={i} className="bg-white rounded-xl border border-gray-200 p-6">
+                <h3 className="font-bold text-gray-900 mb-3">{faq.q}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-20 px-4">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-4xl font-extrabold mb-4">
+            Make Your Etsy Shop Look Professional
+          </h2>
+          <p className="text-gray-500 text-lg mb-8">
+            200 free credits, no credit card required. Your first 8 professional product images in
+            under 4 minutes.
+          </p>
+          <a
+            href="https://app.pocketdirectorai.com/signup"
+            className="inline-block bg-indigo-600 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200"
+          >
+            Start Free — 200 Credits
+          </a>
+          <p className="text-sm text-gray-400 mt-4">
+            No credit card · Cancel anytime · Instant access
+          </p>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-gray-100 py-8 px-4">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+          <span>© 2026 Pocket Director AI. All rights reserved.</span>
+          <div className="flex gap-6">
+            <Link href="/amazon-sellers" className="hover:text-indigo-600">Amazon Sellers</Link>
+            <Link href="/shopify-brands" className="hover:text-indigo-600">Shopify Brands</Link>
+            <Link href="/ugc-videos" className="hover:text-indigo-600">UGC Videos</Link>
+          </div>
+        </div>
+      </footer>
+    </main>
+  );
+}
