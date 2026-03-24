@@ -285,8 +285,8 @@ export default function AmazonProductPhotographyAIGuide() {
           <h2 className="text-2xl font-bold mt-10 mb-4">A+ Content Strategy with AI</h2>
           <p className="text-gray-600 mb-4">
             A+ Content is underused. Most sellers put up a basic module or two and leave it.
-            Sellers who invest in A+ Content see measurable conversion lift, and the content is
-            now infinitely cheaper to produce with AI.
+            Sellers who invest in A+ Content see real conversion lift, and the content now costs a
+            fraction of what it did to produce with a photographer.
           </p>
 
           <p className="text-gray-600 mb-4">

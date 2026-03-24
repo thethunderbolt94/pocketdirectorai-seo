@@ -101,16 +101,15 @@ export default function PebblelyAlternativePage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-6">What Is Pebblely?</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Pebblely is a Singapore-based AI product photography tool that gained a following for
-            its clean interface and ability to generate lifestyle backgrounds behind product cutouts.
-            It was an early entrant to the AI product photo space and built a loyal user base among
+            Pebblely is a Singapore-based AI product photography tool known for its clean interface
+            and ability to generate lifestyle backgrounds behind product cutouts. It was an early
+            entrant to the AI product photo space and picked up a solid user base among
             small-to-medium e-commerce brands.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             Pebblely's main strengths are its simplicity and ease of use. You upload a product photo
             and generate it against themed lifestyle backgrounds in a few clicks. For brands that
-            need a straightforward tool to upgrade their listing images without a steep learning
-            curve, it's a reasonable place to start.
+            need a no-frills tool to upgrade their listing images quickly, it does the job.
           </p>
           <p className="text-gray-600 leading-relaxed">
             The limitations tend to show as brands scale. The style library is narrower than most

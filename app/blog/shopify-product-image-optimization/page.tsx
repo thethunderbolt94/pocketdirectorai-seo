@@ -128,7 +128,7 @@ export default function ShopifyProductImageOptimization() {
               <li>✓ Images per product: 5–8</li>
               <li>✓ 70% of Shopify traffic is mobile. Design for small screens</li>
               <li>
-                ✓ A/B testing your main image is one of the highest-leverage CRO
+                ✓ A/B testing your main image is one of the highest-impact CRO
                 changes you can make
               </li>
             </ul>
@@ -276,7 +276,7 @@ export default function ShopifyProductImageOptimization() {
           </p>
           <p className="text-gray-600 mb-4">
             This is a significant missed opportunity. The main product image is
-            one of the highest-leverage changes you can make to conversion rate.
+            one of the highest-impact changes you can make to conversion rate.
             It is the first thing buyers see, on both the product page and in
             collection views. A better image means more clicks, more
             add-to-carts, and more purchases.
@@ -413,7 +413,7 @@ export default function ShopifyProductImageOptimization() {
             testing material before you spend a cent on ads.
           </p>
           <p className="text-gray-600 mb-4">
-            Three specific ways this changes the game for Shopify brands:
+            For Shopify brands, the practical differences are:
           </p>
           <ul className="space-y-3 text-gray-600 mb-6">
             <li>
@@ -501,9 +501,7 @@ export default function ShopifyProductImageOptimization() {
           </div>
 
           <div className="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-400">
-            <p>
-              <strong>Related reading:</strong>
-            </p>
+            <p>Related reading</p>
             <ul className="space-y-1 mt-2">
               <li>
                 <Link

@@ -111,7 +111,7 @@ export default function EtxySellersPage() {
             <span className="text-indigo-600">That Get Clicks</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Beautiful lifestyle imagery that makes your handmade products look like they belong in a
+            Professional lifestyle imagery that makes your handmade products look like they belong in a
             boutique catalog — without hiring a photographer or renting a studio.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -255,7 +255,7 @@ export default function EtxySellersPage() {
                 step: "03",
                 title: "Download and List",
                 description:
-                  "Your 8 professional images are ready in under 4 minutes. Download, upload to Etsy, and watch your click-through rate climb.",
+                  "Your 8 professional images are ready in under 4 minutes. Download and upload directly to your Etsy listings.",
               },
             ].map((step) => (
               <div key={step.step} className="text-center">

@@ -171,8 +171,7 @@ export default function UgcVideosPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Why UGC Video Outperforms Everything Else</h2>
               <p className="text-gray-500 text-lg">
-                The data is clear. UGC-style video content drives more clicks, more sales, and lower
-                CPMs than polished brand content.
+                UGC-style video drives more clicks, more sales, and lower CPMs than polished brand content. The numbers back it up.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6 mb-12">

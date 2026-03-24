@@ -185,7 +185,7 @@ export default function ShopifyBrandsPage() {
           <div className="text-center mb-14">
             <h2 className="text-3xl font-bold mb-4">Images Built for Shopify Performance</h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-              Generate more image variations, run more tests, find what converts. Without booking a single shoot.
+              Generate more image variations and run more tests to find what converts — without booking a single shoot.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -198,7 +198,7 @@ export default function ShopifyBrandsPage() {
               },
               {
                 icon: "🌿",
-                title: "Lifestyle Images That Tell a Story",
+                title: "Lifestyle Images in Any Setting",
                 description:
                   "Go beyond white backgrounds. Put your products in kitchens, bedrooms, outdoor settings, and hundreds of other scenes — without a stylist or a shoot day.",
               },

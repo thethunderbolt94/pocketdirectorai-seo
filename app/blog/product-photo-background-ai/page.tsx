@@ -465,9 +465,7 @@ export default function ProductPhotoBackgroundAI() {
           </div>
 
           <div className="mt-10 pt-6 border-t border-gray-100 text-sm text-gray-400">
-            <p>
-              <strong>Related reading:</strong>
-            </p>
+            <p>Related reading</p>
             <ul className="space-y-1 mt-2">
               <li>
                 <Link

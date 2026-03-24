@@ -184,7 +184,7 @@ export default function ProductPhotographyCostPage() {
             <li>Highly reflective products like mirrors and jewelry, where AI can struggle with accurate reflections</li>
             <li>Ultra-luxury brands where a bespoke studio environment is part of the brand positioning</li>
             <li>Complex lifestyle scenes that need models, specific locations, or on-set art direction</li>
-            <li>Products with intricate textures that need macro photography to capture detail</li>
+            <li>Products with fine textures that need macro photography to capture detail</li>
           </ul>
           <p className="text-gray-600 mb-6">
             For most e-commerce products — apparel accessories, home goods, beauty,

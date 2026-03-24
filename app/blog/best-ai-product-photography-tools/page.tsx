@@ -267,7 +267,7 @@ export default function BestAIProductPhotographyTools() {
             <p className="text-gray-600 mb-4">
               At $29/month, it is priced above Pocket Director AI despite offering fewer output
               types. It makes sense for businesses whose primary need is clean, consistent
-              catalog images rather than immersive lifestyle content.
+              catalog images rather than lifestyle content.
             </p>
 
             <div className="bg-gray-50 rounded-xl p-4 border border-gray-100 text-sm text-gray-600">
