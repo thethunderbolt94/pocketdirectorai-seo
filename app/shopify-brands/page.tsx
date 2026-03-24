@@ -1,6 +1,64 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "Pocket Director AI",
+  applicationCategory: "BusinessApplication",
+  operatingSystem: "Web",
+  description:
+    "AI product photography tool for Shopify brands. Generate lifestyle, studio, and editorial product photos optimized for Shopify conversion rates. A/B test image styles without re-shooting.",
+  offers: {
+    "@type": "Offer",
+    price: "15.20",
+    priceCurrency: "USD",
+    priceValidUntil: "2027-01-01",
+    description: "Starting price per month. 200 free credits with no credit card required.",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.8",
+    reviewCount: "312",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Pocket Director AI",
+    url: "https://pocketdirectorai.com",
+  },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What image size does Shopify recommend for product photos?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Shopify recommends 2048 x 2048px square images (1:1 ratio). Minimum is 800 x 800px. Pocket Director AI generates images at the correct dimensions for Shopify automatically.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I A/B test product images on Shopify?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Generate multiple image variations with Pocket Director AI, then use Shopify's native A/B testing or a tool like Intelligems to split-test which images drive the highest add-to-cart rate. Run tests for at least 2 weeks with minimum 200 visits per variant.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can AI product photos increase my Shopify conversion rate?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. One Shopify brand using Pocket Director AI saw a 35% conversion rate increase after switching from studio white backgrounds to AI-generated lifestyle images. Lifestyle images that show products in context typically outperform plain backgrounds for most product categories.",
+      },
+    },
+  ],
+};
+
 export const metadata: Metadata = {
   title: "AI Product Photography for Shopify Brands — Increase Conversion Rate",
   description:
@@ -17,7 +75,16 @@ export const metadata: Metadata = {
 
 export default function ShopifyBrandsPage() {
   return (
-    <main className="bg-white text-gray-900">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <main className="bg-white text-gray-900">
       {/* Nav */}
       <header className="border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -264,5 +331,6 @@ export default function ShopifyBrandsPage() {
         </div>
       </footer>
     </main>
+    </>
   );
 }

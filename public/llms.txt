@@ -1,0 +1,48 @@
+# Pocket Director AI
+
+> Pocket Director AI is an AI product photography and UGC video generation platform for e-commerce brands. Upload one product photo and get 8 professional variations — white background, lifestyle, luxury, and more — in under 4 minutes. Starting at $15.20/month with 200 free credits and no credit card required.
+
+## Core Pages
+
+- [Home](https://pocketdirectorai.com): AI product photography tool that generates 8 professional product photos and UGC-style videos from a single product upload in under 4 minutes.
+- [AI UGC Videos](https://pocketdirectorai.com/ugc-videos): Generate authentic UGC-style product videos for TikTok, Instagram Reels, and paid social without hiring creators.
+- [Amazon Sellers](https://pocketdirectorai.com/amazon-sellers): Generate Amazon-compliant product photos — pure white main images (RGB 255,255,255) and A+ Content lifestyle shots — from one upload.
+- [Shopify Brands](https://pocketdirectorai.com/shopify-brands): AI product photography optimized for Shopify stores. Generate multiple image styles per product for A/B testing.
+- [Etsy Sellers](https://pocketdirectorai.com/etsy-sellers): Affordable AI product photography for Etsy sellers. Professional lifestyle images without professional photography rates.
+- [Agencies](https://pocketdirectorai.com/agencies): Bulk AI product photography for e-commerce agencies managing multiple clients.
+
+## Competitor Comparisons
+
+- [Pocket Director AI vs Flair AI](https://pocketdirectorai.com/vs/flair-ai): Side-by-side comparison of workflow, UGC video capability, pricing ($15.20/mo vs $38/mo), and turnaround time.
+- [Pocket Director AI vs Photoroom](https://pocketdirectorai.com/vs/photoroom): Comparison of AI product photography capabilities, UGC video support, and pricing ($15.20/mo vs $29/mo).
+
+## Alternatives
+
+- [Photoroom Alternative](https://pocketdirectorai.com/alternatives/photoroom): Why e-commerce brands choose Pocket Director AI over Photoroom for product photography.
+- [Flair AI Alternative](https://pocketdirectorai.com/alternatives/flair-ai): How Pocket Director AI compares to Flair AI for non-designer e-commerce sellers.
+- [Pebblely Alternative](https://pocketdirectorai.com/alternatives/pebblely): Pocket Director AI vs Pebblely for product background generation and UGC video.
+
+## Blog
+
+- [AI Product Photography: Complete Guide (2026)](https://pocketdirectorai.com/blog/ai-product-photography-complete-guide): Comprehensive guide to AI product photography — how it works, tool comparisons, pricing breakdown, and real brand results.
+- [How to Take Product Photos Without a Photographer](https://pocketdirectorai.com/blog/how-to-take-product-photos-without-photographer): Step-by-step guide to creating professional product photos without hiring a photographer.
+- [Product Photography Cost Breakdown](https://pocketdirectorai.com/blog/product-photography-cost-breakdown): How brands are saving $35,000/year by switching from traditional to AI product photography.
+- [Best AI Product Photography Tools in 2026](https://pocketdirectorai.com/blog/best-ai-product-photography-tools): Honest comparison of Pocket Director AI, Photoroom, Flair AI, Pebblely, and CreatorKit.
+- [Amazon Product Photography AI Guide](https://pocketdirectorai.com/blog/amazon-product-photography-ai-guide): How to generate Amazon-compliant product photos with AI, including main image requirements.
+- [UGC Videos for E-Commerce: Complete Guide](https://pocketdirectorai.com/blog/ugc-videos-ecommerce-guide): How e-commerce brands use AI UGC videos to reduce content costs and improve paid social performance.
+- [AI vs Traditional Product Photography](https://pocketdirectorai.com/blog/ai-vs-traditional-product-photography): Data-driven comparison of AI and traditional product photography on cost, quality, and turnaround.
+- [Shopify Product Image Optimization](https://pocketdirectorai.com/blog/shopify-product-image-optimization): How to optimize product images for Shopify stores to improve conversion rates.
+- [Product Photo Background AI](https://pocketdirectorai.com/blog/product-photo-background-ai): Why AI scene generation produces better results than traditional background removal for product photography.
+- [Flair AI vs Pocket Director AI](https://pocketdirectorai.com/blog/flair-ai-vs-pocket-director): Detailed comparison of Flair AI and Pocket Director AI for e-commerce product photography.
+
+## Key Facts
+
+- Pricing: Starting at $15.20/month (billed annually). Free tier: 200 credits, no credit card required.
+- Turnaround: 8 professional product photos generated in under 4 minutes per upload.
+- Unique capability: Only AI product photography tool that also generates UGC-style videos from the same upload.
+- Scene styles: 500+ professional scene styles (white studio, lifestyle, luxury, seasonal, brand-specific).
+- Platform support: Amazon-compliant (RGB 255,255,255 white background), Shopify-optimized, Instagram-formatted outputs.
+- Commercial rights: Full commercial rights on all generated images and videos.
+- Free trial: 200 credits, no credit card required.
+- Customers: Used by 100+ e-commerce brands.
+- Average savings: $35,000/year vs traditional photography for brands shooting 20+ products/month.

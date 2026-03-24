@@ -1,6 +1,37 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Is Pocket Director AI cheaper than Photoroom?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Pocket Director AI starts at $15.20/month billed annually. Photoroom starts at $29/month. Pocket Director also includes UGC video generation, which Photoroom does not offer.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does Photoroom do that Pocket Director AI doesn't?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Photoroom is faster for quick one-off background removal on existing photos and has a strong mobile app. Pocket Director AI is designed for generating complete scenes from scratch and producing UGC video content, not for quick single-image edits.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can Pocket Director AI replace Photoroom?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "For e-commerce brands needing product photos and UGC video ads, yes. For users who primarily need quick background removal on individual photos, Photoroom remains a good tool for that specific use case.",
+      },
+    },
+  ],
+};
+
 export const metadata: Metadata = {
   title: "Photoroom Alternative: Why E-Commerce Brands Switch to Pocket Director AI",
   description:
@@ -17,7 +48,12 @@ export const metadata: Metadata = {
 
 export default function PhotoroomAlternativePage() {
   return (
-    <main className="bg-white text-gray-900">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <main className="bg-white text-gray-900">
       {/* Nav */}
       <header className="border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -268,5 +304,6 @@ export default function PhotoroomAlternativePage() {
         </div>
       </footer>
     </main>
+    </>
   );
 }

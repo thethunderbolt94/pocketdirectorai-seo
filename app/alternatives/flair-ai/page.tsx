@@ -1,6 +1,37 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is Flair AI?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Flair AI is an AI product photography tool that lets users compose scenes using a drag-and-drop interface with prompt-based controls. It is designed for designers who want granular control over scene composition.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is Pocket Director AI better than Flair AI?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "It depends on your workflow. Flair AI is better for designers who want manual scene composition control. Pocket Director AI is better for e-commerce sellers who need fast results without learning prompt engineering, and for teams that also need UGC video generation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does Flair AI cost compared to Pocket Director AI?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Flair AI starts at $38/month. Pocket Director AI starts at $15.20/month billed annually and includes a free trial of 200 credits with no credit card required.",
+      },
+    },
+  ],
+};
+
 export const metadata: Metadata = {
   title: "Flair AI Alternative: Pocket Director AI vs Flair for Product Photography",
   description:
@@ -17,7 +48,12 @@ export const metadata: Metadata = {
 
 export default function FlairAiAlternativePage() {
   return (
-    <main className="bg-white text-gray-900">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <main className="bg-white text-gray-900">
       {/* Nav */}
       <header className="border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -350,5 +386,6 @@ export default function FlairAiAlternativePage() {
         </div>
       </footer>
     </main>
+    </>
   );
 }

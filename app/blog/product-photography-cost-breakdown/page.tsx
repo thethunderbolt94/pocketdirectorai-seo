@@ -15,7 +15,7 @@ const schema = {
   headline: "Product Photography Cost Breakdown: How Brands Are Saving $35,000/Year",
   datePublished: "2026-03-15",
   dateModified: "2026-03-23",
-  author: { "@type": "Organization", name: "Pocket Director AI" },
+  author: { "@type": "Person", name: "Pocket Director AI Team", url: "https://pocketdirectorai.com/blog" },
 };
 
 export default function ProductPhotographyCostPage() {

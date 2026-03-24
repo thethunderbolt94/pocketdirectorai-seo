@@ -26,9 +26,9 @@ const articleSchema = {
   datePublished: "2026-03-10",
   dateModified: "2026-03-23",
   author: {
-    "@type": "Organization",
-    name: "Pocket Director AI",
-    url: "https://pocketdirectorai.com",
+    "@type": "Person",
+    name: "Pocket Director AI Team",
+    url: "https://pocketdirectorai.com/blog",
   },
   publisher: {
     "@type": "Organization",

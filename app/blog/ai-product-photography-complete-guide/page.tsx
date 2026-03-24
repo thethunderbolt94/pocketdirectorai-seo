@@ -20,7 +20,7 @@ const articleSchema = {
   description: "Everything you need to know about AI product photography — how it works, top tools compared, pricing breakdown, and real results.",
   datePublished: "2026-03-01",
   dateModified: "2026-03-23",
-  author: { "@type": "Organization", name: "Pocket Director AI", url: "https://pocketdirectorai.com" },
+  author: { "@type": "Person", name: "Pocket Director AI Team", url: "https://pocketdirectorai.com/blog" },
   publisher: { "@type": "Organization", name: "Pocket Director AI", url: "https://pocketdirectorai.com" },
   keywords: ["AI product photography", "product photography AI tool", "automated product photography"],
 };

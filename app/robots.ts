@@ -17,6 +17,7 @@ export default function robots(): MetadataRoute.Robots {
           "anthropic-ai",    // Anthropic
           "Google-Extended", // Google Gemini + AI Overviews
           "OAI-SearchBot",   // OpenAI search
+          "Bytespider",      // ByteDance / TikTok AI crawler
         ],
         allow: "/",
       },

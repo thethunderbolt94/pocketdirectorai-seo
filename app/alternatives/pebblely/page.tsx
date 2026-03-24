@@ -1,6 +1,37 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is Pebblely?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Pebblely is an AI product photography tool that generates background scenes for product photos. It offers a simple interface suitable for beginners and starts at $19/month with 25 free images.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does Pocket Director AI compare to Pebblely?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Pocket Director AI generates 8 image variations per upload vs Pebblely's one-at-a-time approach, includes UGC video generation that Pebblely does not offer, and provides 500+ scene styles vs Pebblely's more limited style library.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is Pebblely or Pocket Director AI better for Amazon sellers?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Pocket Director AI is better suited for Amazon sellers because it generates Amazon-compliant main images (pure white RGB 255,255,255), A+ Content lifestyle shots, and multiple angle variations from a single upload — all in under 4 minutes.",
+      },
+    },
+  ],
+};
+
 export const metadata: Metadata = {
   title: "Pebblely Alternative: More Styles, UGC Videos, Better Pricing",
   description:
@@ -17,7 +48,12 @@ export const metadata: Metadata = {
 
 export default function PebblelyAlternativePage() {
   return (
-    <main className="bg-white text-gray-900">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <main className="bg-white text-gray-900">
       {/* Nav */}
       <header className="border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -317,5 +353,6 @@ export default function PebblelyAlternativePage() {
         </div>
       </footer>
     </main>
+    </>
   );
 }
