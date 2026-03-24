@@ -40,13 +40,13 @@ export default function PhotoroomAlternativePage() {
             Photoroom Alternative
           </div>
           <h1 className="text-5xl font-extrabold leading-tight tracking-tight mb-6 text-gray-900">
-            The Best Photoroom Alternative for{" "}
+            A Photoroom Alternative for{" "}
             <span className="text-indigo-600">E-Commerce Brands</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Photoroom is a solid tool for background removal and basic product shots. But if you
-            need UGC videos, more lifestyle scene variety, and a lower monthly cost — Pocket
-            Director AI is the better choice.
+            Photoroom is genuinely good at background removal and quick product shots. Where it
+            falls short is video, scene variety, and price. If those gaps matter to your workflow,
+            Pocket Director AI is worth a look.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -65,21 +65,19 @@ export default function PhotoroomAlternativePage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-6">What Is Photoroom?</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Photoroom is a mobile-first AI photo editing app primarily known for its background
-            removal capabilities. It's widely used by individual sellers and small e-commerce brands
-            who want to quickly remove backgrounds from product photos and replace them with clean
-            studio-style or lifestyle backgrounds.
+            Photoroom is a mobile-first AI photo editing app best known for background removal.
+            It's widely used by individual sellers and small e-commerce brands who want to quickly
+            clean up product photos and swap backgrounds on their phones.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Photoroom has a large user base and a polished mobile experience. For sellers who need
-            quick background removal on the go, it's a capable tool. However, it has meaningful
-            gaps for brands running serious e-commerce operations — particularly around UGC video
-            generation, A+ Content lifestyle imagery, and deep style variety.
+            It has a large user base and a polished mobile experience. For sellers who need fast
+            background removal on the go, it works well. The gaps show up for brands running larger
+            operations, particularly around UGC video, A+ Content lifestyle imagery, and scene variety.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Brands looking to go beyond basic background swaps — especially those running paid
-            social campaigns that need video creative — often find themselves outgrowing Photoroom
-            and looking for a more complete solution.
+            Brands running paid social campaigns that need video creative often find themselves
+            needing a second tool alongside Photoroom. That's usually the point where they start
+            looking for something that covers both.
           </p>
         </div>
       </section>
@@ -179,28 +177,28 @@ export default function PhotoroomAlternativePage() {
       {/* Why Brands Switch */}
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-10 text-center">Why Brands Switch to Pocket Director AI</h2>
+          <h2 className="text-3xl font-bold mb-10 text-center">What Changes When You Switch to Pocket Director AI</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
                 title: "Photos and Videos from One Tool",
                 description:
-                  "Photoroom is photos only. Pocket Director generates both professional lifestyle product photos AND UGC-style video ads from the same product upload — one tool, full creative coverage.",
+                  "Photoroom is photos only. Pocket Director generates professional lifestyle product photos and UGC-style video ads from the same product upload, so you're not managing two separate tools for two formats.",
               },
               {
                 title: "500+ Scenes vs. ~100",
                 description:
-                  "With 500+ scene styles vs. Photoroom's ~100, Pocket Director gives your products a much wider range of lifestyle contexts — from minimalist studio to seasonal outdoor to luxury editorial.",
+                  "Photoroom has around 100 backgrounds. Pocket Director has 500+ curated scene presets, from minimalist studio to seasonal outdoor to luxury editorial. More variety means more chances to find what converts.",
               },
               {
                 title: "8 Variations Per Upload",
                 description:
-                  "Pocket Director generates 8 unique image variations per upload — not just one background swap. That means A/B testing material is baked in from the start.",
+                  "Pocket Director generates 8 unique image variations per upload instead of one background swap at a time. You get A/B testing material without re-uploading the same product repeatedly.",
               },
               {
                 title: "Lower Price, More Generous Trial",
                 description:
-                  "At $15.20/month vs. Photoroom's $29/month, Pocket Director costs about half as much. And the free trial gives you 200 actual credits — no credit card, no time pressure.",
+                  "Pocket Director starts at $15.20/month vs. Photoroom's $29/month. The free trial gives you 200 actual credits with no credit card required, so you can test with real products before committing.",
               },
             ].map((reason) => (
               <div
@@ -240,11 +238,11 @@ export default function PhotoroomAlternativePage() {
       <section className="py-20 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold mb-4">
-            Ready to Try a Better Alternative?
+            See How It Compares in Practice
           </h2>
           <p className="text-gray-500 text-lg mb-8">
-            Start with 200 free credits — no credit card required. See the difference in your first
-            session.
+            Start with 200 free credits, no credit card required. Upload a product and see what
+            you get in your first session.
           </p>
           <a
             href="https://app.pocketdirectorai.com/signup"

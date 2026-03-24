@@ -39,8 +39,8 @@ export default function ProductPhotosWithoutPhotographerPage() {
             How to Create Product Photos Without a Photographer (Step-by-Step)
           </h1>
           <p className="text-xl text-gray-500">
-            Professional product photography no longer requires a professional photographer. With AI
-            tools, any e-commerce seller can create studio-quality images from a simple phone photo.
+            You don&apos;t need to hire a photographer to get professional product photos anymore. With AI
+            tools, any e-commerce seller can go from a phone snapshot to studio-quality images.
             Here&apos;s exactly how to do it in under 30 minutes.
           </p>
         </div>
@@ -59,68 +59,66 @@ export default function ProductPhotosWithoutPhotographerPage() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Why You Don&apos;t Need a Photographer Anymore</h2>
           <p className="text-gray-600 mb-4">
-            Traditional product photography requires a photographer ($75–$200/hour), a studio rental
-            ($100–$300/day), props, lighting equipment, editing time, and 1–3 weeks of turnaround.
-            The total cost for a single product: $300–$800.
+            Traditional product photography adds up fast: a photographer runs $75–$200/hour, studio rental
+            is $100–$300/day, and then there&apos;s props, lighting equipment, editing time, and 1–3 weeks of
+            waiting around. A single product shoot can cost $300–$800 before you&apos;ve sold a thing.
           </p>
           <p className="text-gray-600 mb-6">
-            AI product photography tools have eliminated all of that. You take a simple capture photo
-            of your product — even with a phone against a white wall — and the AI generates
-            professional studio images from it. The AI handles background removal, lighting, shadows,
-            and compositing automatically.
+            AI product photography tools cut all of that out. You take a simple photo of your product,
+            even just a phone shot against a white wall, and the AI generates professional studio images
+            from it. Background removal, lighting, shadows, compositing — all handled automatically.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Step-by-Step: Product Photos Without a Photographer</h2>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Step 1: Set Up Your Capture Environment</h3>
           <p className="text-gray-600 mb-4">
-            You don&apos;t need a professional setup for your capture photo — the AI will replace the
-            background entirely. But a clean capture makes the AI&apos;s job easier and your results better.
+            Your capture photo doesn&apos;t need to look perfect — the AI replaces the background entirely.
+            But starting with a clean shot gives the AI more to work with and your results will be noticeably better.
           </p>
           <ul className="space-y-2 text-gray-600 mb-4 list-disc list-inside">
-            <li><strong>Use natural light:</strong> Place your product near a window with indirect sunlight. Direct sunlight creates harsh shadows — indirect light is more even.</li>
-            <li><strong>Use a white background:</strong> A piece of white poster board or foam core is enough. It helps the AI isolate your product cleanly.</li>
-            <li><strong>Stabilize your phone:</strong> Use a tripod or prop your phone against something stable to avoid blur.</li>
+            <li>Put your product near a window with indirect sunlight. Direct sun creates harsh shadows. Indirect light is even and soft, which is what you want. (The ring light is optional — window light is genuinely better for most products.)</li>
+            <li>Use a white poster board or foam core as your background. It costs $3 at any office supply store and helps the AI isolate your product cleanly.</li>
+            <li>Stabilize your phone. Prop it against something or use a small tripod. Blur kills photo quality more than almost anything else.</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Step 2: Photograph Your Product</h3>
           <p className="text-gray-600 mb-4">
-            Take multiple angles of your product — front, 45-degree angle, and a flat lay if relevant.
-            You&apos;ll upload each angle separately and get 8 professional variations per upload.
+            Shoot multiple angles: front, 45-degree, and a flat lay if it makes sense for your product.
+            You&apos;ll upload each angle separately and get 8 professional variations per upload, so more angles means more usable content.
           </p>
           <ul className="space-y-2 text-gray-600 mb-4 list-disc list-inside">
-            <li>Fill the frame with your product</li>
-            <li>Avoid harsh shadows by using diffused light (a white curtain in front of a window works well)</li>
-            <li>Take the photo in RAW if your phone supports it — better detail for the AI to work with</li>
+            <li>Fill the frame. Get close enough that your product takes up most of the shot.</li>
+            <li>Soften the light if you need to. A white curtain or piece of tissue paper in front of a window works as a cheap diffuser.</li>
+            <li>Shoot in RAW if your phone supports it. You&apos;ll get more detail for the AI to work with.</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Step 3: Upload to Pocket Director AI</h3>
           <p className="text-gray-600 mb-4">
-            Sign up for a free account at pocketdirectorai.com — you get 200 credits with no credit
-            card required. Upload your product photo and select your target platform.
+            Sign up for a free account at pocketdirectorai.com. You get 200 credits and no credit
+            card is required. Upload your product photo and pick the platform you&apos;re selling on.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Step 4: Choose Your Style</h3>
           <p className="text-gray-600 mb-4">
-            Select from 500+ professional scene presets. For your first run, try these:
+            There are 500+ scene presets to choose from. If you&apos;re not sure where to start, try these four:
           </p>
           <ul className="space-y-2 text-gray-600 mb-4 list-disc list-inside">
-            <li><strong>Amazon Main Image:</strong> Pure white background, product centered, compliant with Amazon requirements</li>
-            <li><strong>Lifestyle Scene:</strong> Product placed in a relevant lifestyle setting (kitchen, desk, outdoor, etc.)</li>
-            <li><strong>Luxury:</strong> Dark, editorial backgrounds with dramatic lighting</li>
-            <li><strong>Studio:</strong> Soft gradient backgrounds with professional studio lighting</li>
+            <li>Amazon Main Image: pure white background, product centered, built to meet Amazon&apos;s image requirements</li>
+            <li>Lifestyle Scene: your product placed in a relevant real-world setting — kitchen, desk, outdoor, etc.</li>
+            <li>Luxury: dark, editorial backgrounds with dramatic lighting. Works well for premium products.</li>
+            <li>Studio: soft gradient backgrounds with clean, professional lighting. A safe default for most categories.</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Step 5: Download Your 8 Professional Images</h3>
           <p className="text-gray-600 mb-6">
-            In under 4 minutes, you&apos;ll have 8 professional product images ready to download — all with
-            full commercial rights. The images are generated at high resolution and in platform-optimized
-            dimensions.
+            In under 4 minutes, you&apos;ll have 8 professional product images ready to download, all with
+            full commercial rights. High resolution, platform-optimized dimensions. Ready to upload wherever you sell.
           </p>
 
-          <h2 className="text-2xl font-bold mt-10 mb-4">Results: Before and After AI Product Photography</h2>
+          <h2 className="text-2xl font-bold mt-10 mb-4">What the Numbers Actually Look Like</h2>
           <p className="text-gray-600 mb-4">
-            Brands consistently report these results when switching from traditional photography to AI:
+            Here&apos;s how AI product photography stacks up against the traditional approach:
           </p>
           <div className="grid grid-cols-2 gap-4 mb-8">
             {[
@@ -136,12 +134,12 @@ export default function ProductPhotosWithoutPhotographerPage() {
             ))}
           </div>
 
-          <h2 className="text-2xl font-bold mt-10 mb-4">Tips for Better AI Product Photo Results</h2>
+          <h2 className="text-2xl font-bold mt-10 mb-4">Tips for Better Results</h2>
           <ul className="space-y-3 text-gray-600 mb-8 list-disc list-inside">
-            <li><strong>Capture in good light:</strong> The AI works best when your product is evenly lit without harsh shadows in the source image.</li>
-            <li><strong>Use a contrasting background:</strong> If your product is white, use a light gray background for the capture. The AI will isolate it more cleanly.</li>
-            <li><strong>Test multiple styles:</strong> Generate 3–4 different style variations per product and A/B test them. The highest-converting style is often surprising.</li>
-            <li><strong>Generate UGC videos too:</strong> Pocket Director AI also generates UGC-style product videos. Use these for paid social alongside your static images.</li>
+            <li>Even light beats bright light. The AI performs best when your product is lit evenly without hard shadows in the source photo. Overcast days through a window are ideal.</li>
+            <li>Use a contrasting background for your capture. If your product is white, shoot it against light gray, not white. The AI will separate the edges much more cleanly.</li>
+            <li>Test multiple styles per product. Generate 3–4 different style variations and run them as A/B tests. The best-converting style is often not the one you&apos;d guess.</li>
+            <li>Don&apos;t stop at photos. Pocket Director AI also generates UGC-style product videos. Pair those with your static images for paid social and you&apos;ll have everything you need for a full campaign.</li>
           </ul>
 
           <div className="bg-indigo-600 text-white p-8 rounded-2xl text-center mt-12">

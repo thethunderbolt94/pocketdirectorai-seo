@@ -43,7 +43,7 @@ export default function AIProductPhotographyGuide() {
           </h1>
           <p className="text-xl text-gray-500">
             AI product photography has gone from novelty to necessity. In 2026, over 40% of e-commerce
-            brands are using AI to generate at least some of their product images — and the results are
+            brands are using AI to generate at least some of their product images, and the results are
             outperforming traditional photography at a fraction of the cost. This guide covers
             everything you need to know.
           </p>
@@ -67,29 +67,29 @@ export default function AIProductPhotographyGuide() {
             professional product images without a physical studio, photographer, or lighting equipment.
             You upload a photo of your product against any background, and the AI replaces the
             background, adjusts lighting, adds shadows, and composites the product into professional
-            scenes — automatically.
+            scenes. Automatically.
           </p>
           <p className="text-gray-600 mb-4">
-            The technology is powered by diffusion models (the same technology behind Midjourney and
+            The technology runs on diffusion models (the same technology behind Midjourney and
             DALL-E) trained specifically on e-commerce photography. The result is images that are
-            nearly indistinguishable from professional studio shots — at 1/100th of the cost.
+            nearly indistinguishable from professional studio shots, at 1/100th of the cost.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">How AI Product Photography Works</h2>
           <p className="text-gray-600 mb-4">
-            Modern AI product photography tools follow a similar workflow:
+            Most AI product photography tools follow a similar workflow:
           </p>
           <ol className="list-decimal list-inside space-y-3 text-gray-600 mb-6">
-            <li><strong>Product isolation:</strong> The AI uses computer vision to detect and isolate your product from the background — even with complex edges, transparent materials, or reflective surfaces.</li>
-            <li><strong>Background generation:</strong> The AI generates a contextually appropriate background based on your selected style — white studio, lifestyle scene, luxury setting, seasonal backdrop, etc.</li>
-            <li><strong>Compositing and lighting:</strong> The AI matches the lighting direction, color temperature, and shadows between your product and the new background for photorealistic results.</li>
-            <li><strong>Output optimization:</strong> Images are generated at platform-specific dimensions and quality settings — Amazon-ready, Shopify-optimized, Instagram-formatted, etc.</li>
+            <li>The AI uses computer vision to detect and isolate your product from the background, even with complex edges, transparent materials, or reflective surfaces.</li>
+            <li>It generates a contextually appropriate background based on your selected style: white studio, lifestyle scene, luxury setting, seasonal backdrop, and so on.</li>
+            <li>The AI matches the lighting direction, color temperature, and shadows between your product and the new background for photorealistic results.</li>
+            <li>Images are output at platform-specific dimensions and quality settings. Amazon-ready, Shopify-optimized, Instagram-formatted.</li>
           </ol>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">AI Product Photography vs. Traditional Photography: The Numbers</h2>
           <p className="text-gray-600 mb-6">
-            The cost comparison between AI and traditional product photography is stark. According to
-            data from 100+ brands using Pocket Director AI, here&apos;s what the numbers look like in 2026:
+            The cost difference is stark. Based on data from 100+ brands using Pocket Director AI,
+            here&apos;s what the numbers look like in 2026:
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
@@ -120,18 +120,18 @@ export default function AIProductPhotographyGuide() {
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Who Should Use AI Product Photography?</h2>
-          <p className="text-gray-600 mb-4">AI product photography delivers the most value for:</p>
+          <p className="text-gray-600 mb-4">AI product photography tends to pay off fastest for a few specific groups:</p>
           <ul className="space-y-3 text-gray-600 mb-6">
-            <li><strong>Amazon FBA sellers</strong> — who need compliant main images and A+ content across large catalogs</li>
-            <li><strong>Shopify brands</strong> — who want to A/B test multiple image styles without paying per shoot</li>
-            <li><strong>Etsy sellers</strong> — who need beautiful lifestyle imagery but can&apos;t afford professional photography</li>
-            <li><strong>E-commerce agencies</strong> — managing multiple clients who all need fresh content monthly</li>
-            <li><strong>DTC brands</strong> — launching new products quickly and testing creative before committing to a full shoot</li>
+            <li>Amazon FBA sellers who need compliant main images and A+ content across large catalogs</li>
+            <li>Shopify brands that want to A/B test multiple image styles without paying per shoot</li>
+            <li>Etsy sellers who need good lifestyle imagery but can&apos;t justify professional photography rates</li>
+            <li>E-commerce agencies managing multiple clients who all need fresh content every month</li>
+            <li>DTC brands launching new products quickly and testing creative before committing to a full shoot</li>
           </ul>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Best AI Product Photography Tools in 2026</h2>
           <p className="text-gray-600 mb-6">
-            The AI product photography market has consolidated around a handful of purpose-built tools.
+            The market has consolidated around a handful of purpose-built tools.
             Here&apos;s how the top options compare:
           </p>
           <div className="overflow-x-auto mb-8">
@@ -164,7 +164,7 @@ export default function AIProductPhotographyGuide() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Does AI Product Photography Really Work? Real Brand Results</h2>
           <p className="text-gray-600 mb-4">
-            The proof is in the performance data. Here&apos;s what brands using Pocket Director AI report:
+            Here&apos;s what brands using Pocket Director AI have actually reported:
           </p>
           <div className="space-y-4 mb-8">
             {[
@@ -202,44 +202,44 @@ export default function AIProductPhotographyGuide() {
             generic white-background photos in customer engagement metrics.
           </p>
           <p className="text-gray-600 mb-6">
-            Brands using AI photography for Amazon report average CTR improvements of 12–28% when
-            switching from traditional white-background shots to AI-generated lifestyle secondary images.
+            Brands using Pocket Director AI for Amazon have seen CTR improvements of 12–28% after
+            switching from white-background shots to AI-generated lifestyle images in their secondary slots.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Shopify Product Photography</h3>
           <p className="text-gray-600 mb-4">
-            Shopify stores benefit from AI photography&apos;s ability to generate multiple image styles per
-            product — allowing you to A/B test which backgrounds, angles, and compositions drive the
-            highest add-to-cart rates without paying for multiple photoshoots.
+            The real advantage for Shopify stores is volume. AI photography lets you generate multiple
+            image styles per product, so you can run actual A/B tests to find which backgrounds, angles,
+            and compositions drive the highest add-to-cart rates. No scheduling shoots. No per-image fees.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Social Media Product Photography</h3>
           <p className="text-gray-600 mb-6">
-            AI tools generate platform-specific crops and aspect ratios automatically — 1:1 for
-            Instagram feed, 9:16 for Stories and Reels, 4:3 for Facebook — so you never need to
+            AI tools generate platform-specific crops and aspect ratios automatically: 1:1 for
+            Instagram feed, 9:16 for Stories and Reels, 4:3 for Facebook. You never need to
             manually resize or crop product images.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">The UGC Video Advantage</h2>
           <p className="text-gray-600 mb-4">
-            The most significant gap between AI product photography tools is video. Most tools are
-            photo-only. Pocket Director AI is currently the only tool that generates both professional
-            product photos AND authentic UGC-style videos from the same product upload.
+            Most AI product photography tools only do photos. Pocket Director AI is currently the only
+            tool that generates both professional product photos and authentic UGC-style videos from
+            the same product upload.
           </p>
           <p className="text-gray-600 mb-4">
-            UGC-style videos convert 4x better than traditional product ads according to Meta&apos;s own
-            advertising benchmarks. Traditional UGC creators charge $300–$1,500 per video with 1–2
-            week turnaround. AI-generated UGC videos achieve comparable results in 4 minutes at
-            $15.20/month total.
+            According to Meta&apos;s own advertising benchmarks, UGC-style videos convert 4x better than
+            traditional product ads. Traditional UGC creators charge $300–$1,500 per video with a
+            1–2 week turnaround. AI-generated UGC videos get comparable results in 4 minutes, included
+            in a $15.20/month plan.
           </p>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">How to Get Started with AI Product Photography</h2>
           <ol className="list-decimal list-inside space-y-4 text-gray-600 mb-8">
-            <li><strong>Choose your tool:</strong> Start with a free trial. Pocket Director AI offers 200 free credits with no credit card required.</li>
-            <li><strong>Photograph your products simply:</strong> You don&apos;t need a professional photo for the upload — a well-lit photo against any background works fine. The AI handles the rest.</li>
-            <li><strong>Select your target platform:</strong> Choose Amazon, Shopify, Instagram, or a custom style. The tool will optimize output for that platform automatically.</li>
-            <li><strong>Download and A/B test:</strong> Generate 8 variations per product and run split tests to identify your highest-converting images before scaling.</li>
-            <li><strong>Scale across your catalog:</strong> Once you&apos;ve validated the approach on 2–3 products, roll it out across your entire catalog.</li>
+            <li>Start with a free trial. Pocket Director AI gives you 200 free credits with no credit card required.</li>
+            <li>You don&apos;t need a professional photo to upload. A well-lit shot against any background works. The AI handles the rest.</li>
+            <li>Choose your target platform: Amazon, Shopify, Instagram, or a custom style. Output gets optimized automatically.</li>
+            <li>Generate 8 variations per product and run split tests to find your highest-converting images before scaling.</li>
+            <li>Once you&apos;ve validated on 2–3 products, roll it out across your entire catalog.</li>
           </ol>
 
           <h2 className="text-2xl font-bold mt-10 mb-4">Frequently Asked Questions About AI Product Photography</h2>
@@ -259,7 +259,7 @@ export default function AIProductPhotographyGuide() {
               },
               {
                 q: "How much does AI product photography cost?",
-                a: "AI product photography tools start at $15.20/month (Pocket Director AI) to $29–$38/month for competitors. This compares to $300–$800 per product for traditional studio photography.",
+                a: "AI product photography tools start at $15.20/month (Pocket Director AI) up to $29–$38/month for competitors. Traditional studio photography runs $300–$800 per product.",
               },
             ].map((faq) => (
               <div key={faq.q} className="border-b border-gray-100 pb-5">

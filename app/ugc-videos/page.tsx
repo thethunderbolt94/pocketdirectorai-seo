@@ -225,10 +225,9 @@ export default function UgcVideosPage() {
         <section className="bg-gray-50 py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
-              <h2 className="text-3xl font-bold mb-4">Everything You Need to Run UGC Ads at Scale</h2>
+              <h2 className="text-3xl font-bold mb-4">Run UGC Ads at Scale</h2>
               <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-                Built specifically for e-commerce brands who need authentic video creative without
-                the creator management overhead.
+                No creator briefs. No revision rounds. No waiting. Just upload your product and get video ads.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -317,7 +316,7 @@ export default function UgcVideosPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Traditional UGC Creator vs. Pocket Director AI</h2>
               <p className="text-gray-500 text-lg">
-                The numbers tell the story.
+                Cost, speed, and rights — AI wins on all three.
               </p>
             </div>
             <div className="overflow-x-auto rounded-2xl border border-gray-200">
@@ -396,7 +395,7 @@ export default function UgcVideosPage() {
               {[
                 {
                   q: "What is AI UGC video generation?",
-                  a: "AI UGC video generation uses artificial intelligence to create authentic-looking user-generated content style product videos — without hiring real creators. You upload your product photo, select a UGC style, and the AI generates a realistic-looking video of your product being used or showcased in a natural, handheld setting.",
+                  a: "AI UGC video generation produces authentic-looking product videos without real creators. Upload a product photo, pick a UGC style, and the AI generates a realistic video — handheld feel, natural lighting, real-world context.",
                 },
                 {
                   q: "Can I use AI UGC videos in paid ads on Meta and TikTok?",

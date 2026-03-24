@@ -161,8 +161,7 @@ export default function AmazonSellersPage() {
             <div className="text-center mb-14">
               <h2 className="text-3xl font-bold mb-4">Everything Amazon Requires. Nothing Extra.</h2>
               <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-                Pocket Director is built around Amazon's image standards so every output is
-                marketplace-ready from the first download.
+                Every output matches Amazon's image requirements. Download and upload to Seller Central without touching an editor.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">

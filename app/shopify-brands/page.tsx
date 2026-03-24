@@ -118,8 +118,7 @@ export default function ShopifyBrandsPage() {
           <div className="text-center mb-14">
             <h2 className="text-3xl font-bold mb-4">Images Built for Shopify Performance</h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-              Every feature is designed around one goal: increasing add-to-cart rates on your
-              Shopify store.
+              Generate more image variations, run more tests, find what converts. Without booking a single shoot.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -134,7 +133,7 @@ export default function ShopifyBrandsPage() {
                 icon: "🌿",
                 title: "Lifestyle Images That Tell a Story",
                 description:
-                  "Move beyond white backgrounds. Place your products in contextual lifestyle scenes that connect with your target customer — kitchens, bedrooms, outdoor settings, and hundreds more.",
+                  "Go beyond white backgrounds. Put your products in kitchens, bedrooms, outdoor settings, and hundreds of other scenes — without a stylist or a shoot day.",
               },
               {
                 icon: "📱",
@@ -236,10 +235,10 @@ export default function ShopifyBrandsPage() {
       <section className="bg-indigo-600 py-20 px-4">
         <div className="max-w-2xl mx-auto text-center text-white">
           <h2 className="text-4xl font-extrabold mb-4">
-            Ready to Increase Your Conversion Rate?
+            Start Testing Images That Convert
           </h2>
           <p className="text-indigo-200 text-lg mb-8">
-            Join 100+ Shopify brands using Pocket Director AI. Start free — no credit card required.
+            200 free credits. No credit card. Join 100+ Shopify brands already running AI-generated images.
           </p>
           <a
             href="https://app.pocketdirectorai.com/signup"

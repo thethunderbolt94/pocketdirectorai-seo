@@ -35,7 +35,7 @@ export default function ProductPhotographyCostPage() {
           <p className="text-xl text-gray-500">
             Product photography is one of the most underestimated line items in e-commerce. Most brands
             don&apos;t add it up until they&apos;re staring at a $6,000 monthly bill. Here&apos;s the full cost
-            breakdown — and how brands are cutting it by 95%.
+            breakdown, and how brands are cutting it by 95%.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function ProductPhotographyCostPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Hidden Costs Most Brands Miss</h3>
           <p className="text-gray-600 mb-4">
-            The photographer&apos;s day rate is just the starting point. Here are the costs brands consistently
+            The photographer&apos;s day rate is just the starting point. These are the costs brands consistently
             underestimate:
           </p>
           <div className="overflow-x-auto mb-8">
@@ -116,9 +116,9 @@ export default function ProductPhotographyCostPage() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">The Real Cost Per Product</h2>
           <p className="text-gray-600 mb-6">
-            When you add it all up, the true cost per product for professional photography ranges from
-            <strong> $300 to $800</strong> — with the average around $450 in 2026, per independent
-            survey data from 200+ e-commerce brands.
+            Add it all up and the true cost per product for professional photography runs
+            <strong> $300 to $800</strong>, averaging around $450 in 2026. That number stings more
+            once you see it applied to a full month&apos;s catalog.
           </p>
           <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-8">
             <h3 className="font-bold mb-4">Sample Cost Calculation: 20 Products/Month</h3>
@@ -149,7 +149,7 @@ export default function ProductPhotographyCostPage() {
           <h2 className="text-2xl font-bold mt-10 mb-4">AI Product Photography Costs</h2>
           <p className="text-gray-600 mb-4">
             AI product photography tools replace the photographer, studio, and most of the editing
-            workflow. The cost structure is radically different:
+            workflow. The cost structure looks completely different:
           </p>
           <div className="bg-green-50 p-6 rounded-2xl border border-green-100 mb-8">
             <h3 className="font-bold mb-4">AI Photography Cost: 20 Products/Month</h3>
@@ -178,24 +178,24 @@ export default function ProductPhotographyCostPage() {
 
           <h2 className="text-2xl font-bold mt-10 mb-4">When Is Traditional Photography Worth It?</h2>
           <p className="text-gray-600 mb-4">
-            AI photography isn&apos;t perfect for every situation. Traditional photography still makes sense for:
+            AI photography isn&apos;t right for every situation. Traditional photography still makes sense for:
           </p>
           <ul className="space-y-2 text-gray-600 mb-6 list-disc list-inside">
-            <li><strong>Highly reflective products</strong> (mirrors, jewelry) where AI can struggle with accurate reflections</li>
-            <li><strong>Ultra-luxury brands</strong> where bespoke studio environments are part of the brand positioning</li>
-            <li><strong>Complex lifestyle scenes</strong> requiring models, specific locations, or art direction</li>
-            <li><strong>Products with intricate textures</strong> that need macro photography to capture detail</li>
+            <li>Highly reflective products like mirrors and jewelry, where AI can struggle with accurate reflections</li>
+            <li>Ultra-luxury brands where a bespoke studio environment is part of the brand positioning</li>
+            <li>Complex lifestyle scenes that need models, specific locations, or on-set art direction</li>
+            <li>Products with intricate textures that need macro photography to capture detail</li>
           </ul>
           <p className="text-gray-600 mb-6">
-            For the majority of e-commerce products — apparel accessories, home goods, beauty,
+            For most e-commerce products — apparel accessories, home goods, beauty,
             supplements, electronics accessories, pet products, kitchen items — AI photography now
-            matches or exceeds traditional photography quality.
+            matches or beats traditional photography quality.
           </p>
 
           <div className="bg-indigo-600 text-white p-8 rounded-2xl text-center mt-12">
             <h2 className="text-2xl font-bold mb-3">Calculate Your Photography Savings</h2>
             <p className="text-indigo-100 mb-2">How many products do you photograph per month?</p>
-            <p className="text-indigo-200 text-sm mb-6">At $450/product average, 20 products = $9,000/month → $15.20 with Pocket Director AI</p>
+            <p className="text-indigo-200 text-sm mb-6">At $450/product average, 20 products = $9,000/month. With Pocket Director AI: $15.20.</p>
             <a href="https://app.pocketdirectorai.com/signup" className="inline-block bg-white text-indigo-700 px-8 py-3 rounded-xl font-bold hover:bg-indigo-50 transition-colors">
               Start Saving — 200 Free Credits
             </a>

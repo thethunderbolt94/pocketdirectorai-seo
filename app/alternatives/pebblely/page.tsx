@@ -40,13 +40,13 @@ export default function PebblelyAlternativePage() {
             Pebblely Alternative
           </div>
           <h1 className="text-5xl font-extrabold leading-tight tracking-tight mb-6 text-gray-900">
-            The Best Pebblely Alternative for{" "}
+            A Pebblely Alternative for{" "}
             <span className="text-indigo-600">E-Commerce Photography</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Pebblely is a capable AI background tool. But for brands that need more scene variety,
-            UGC video generation, and a more affordable pricing structure — Pocket Director AI is
-            the clear next step.
+            Pebblely is a solid background tool with a clean interface. If you've hit its limits
+            on style variety, need video for TikTok or Meta, or want a lower monthly price, Pocket
+            Director AI is worth comparing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -65,22 +65,22 @@ export default function PebblelyAlternativePage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-6">What Is Pebblely?</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Pebblely is a Singapore-based AI product photography tool that gained popularity for its
-            clean interface and ability to generate lifestyle backgrounds behind product cutouts. It
-            was an early entrant to the AI product photo space and built a loyal user base among
+            Pebblely is a Singapore-based AI product photography tool that gained a following for
+            its clean interface and ability to generate lifestyle backgrounds behind product cutouts.
+            It was an early entrant to the AI product photo space and built a loyal user base among
             small-to-medium e-commerce brands.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Pebblely's strengths are its simplicity and ease of use. Users can upload a product
-            photo and quickly generate it against themed lifestyle backgrounds. For brands that need
-            a straightforward tool to upgrade their product listing images, Pebblely is a reasonable
-            starting point.
+            Pebblely's main strengths are its simplicity and ease of use. You upload a product photo
+            and generate it against themed lifestyle backgrounds in a few clicks. For brands that
+            need a straightforward tool to upgrade their listing images without a steep learning
+            curve, it's a reasonable place to start.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            The limitations become apparent as brands scale. The style library is narrower than
-            competitors, there's no video capability at all, and the per-image credit model can make
-            catalog-scale operations expensive. For brands that have grown past basic background
-            replacement and need video ads alongside their product photos, Pebblely hits a ceiling.
+            The limitations tend to show as brands scale. The style library is narrower than most
+            competitors, there's no video output, and the per-image credit model can get expensive
+            for catalog-scale operations. Brands that need video ads alongside product photos
+            typically end up needing a second tool.
           </p>
         </div>
       </section>
@@ -185,33 +185,33 @@ export default function PebblelyAlternativePage() {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">
-            What Pocket Director Does That Pebblely Doesn't
+            Where Pocket Director Differs from Pebblely
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
                 icon: "🎬",
-                title: "UGC Video — The Feature Pebblely Doesn't Have",
+                title: "UGC Video Generation",
                 description:
-                  "Video ads on TikTok and Meta are no longer optional for competitive e-commerce brands. Pebblely is photos only. Pocket Director generates authentic UGC-style video ads from the same product upload as your photos — no second tool, no second workflow.",
+                  "Pebblely is photos only. Pocket Director generates UGC-style video ads from the same product upload as your photos, so you're not maintaining a second tool and workflow for video creative.",
               },
               {
                 icon: "🎨",
-                title: "10x More Style Variety",
+                title: "500+ Scenes vs. 40–60",
                 description:
-                  "Pebblely offers ~40–60 themed backgrounds. Pocket Director has 500+ curated scene presets spanning minimalist studio, luxury editorial, seasonal, outdoor, artisan, and platform-specific styles like Amazon A+ and Shopify lifestyle.",
+                  "Pebblely offers around 40–60 themed backgrounds. Pocket Director has 500+ curated scene presets across minimalist studio, luxury editorial, seasonal, outdoor, artisan, and platform-specific styles like Amazon A+ and Shopify lifestyle.",
               },
               {
                 icon: "⚡",
-                title: "8 Variations, Not 1–4",
+                title: "8 Variations Per Upload",
                 description:
-                  "Pebblely generates 1–4 variants per upload. Pocket Director generates 8 unique variations automatically — giving you A/B testing material built in from the start, without re-uploading.",
+                  "Pebblely generates 1–4 variants per upload. Pocket Director generates 8 unique variations automatically. You get A/B testing material without re-uploading the same product.",
               },
               {
                 icon: "💰",
                 title: "Slightly Lower Price, More Generous Trial",
                 description:
-                  "At $15.20/month vs. Pebblely's ~$19/month, Pocket Director costs less and does more. The 200-credit free trial with no credit card is also more generous than Pebblely's trial structure.",
+                  "Pocket Director starts at $15.20/month vs. Pebblely's ~$19/month. The 200-credit free trial requires no credit card, which gives you more room to test with real products before deciding.",
               },
             ].map((reason) => (
               <div
@@ -263,15 +263,15 @@ export default function PebblelyAlternativePage() {
             {[
               {
                 q: "Is the image quality better in Pocket Director than Pebblely?",
-                a: "Image quality is comparable for standard lifestyle backgrounds, with Pocket Director producing notably better results for complex scenes and luxury aesthetics due to its larger model training. The real advantage is variety, video capability, and the 8-per-upload workflow.",
+                a: "For standard lifestyle backgrounds, quality is comparable. Pocket Director tends to produce better results for complex scenes and luxury aesthetics. The bigger practical differences are scene variety, video output, and the 8-per-upload workflow.",
               },
               {
                 q: "Can I migrate my existing product catalog to Pocket Director?",
-                a: "Yes. You can upload any product photo to Pocket Director — there's no proprietary format to convert. Your existing product images work as-is. Most users migrate their full catalog within a single session.",
+                a: "Yes. You can upload any product photo directly. There's no proprietary format to convert, and your existing product images work as-is. Most users work through their full catalog in a single session.",
               },
               {
                 q: "Does Pocket Director have a Pebblely-style simple interface?",
-                a: "Yes. Like Pebblely, Pocket Director uses a simple upload → select preset → download workflow. There's no canvas interface or prompt engineering required. It's designed to be usable without any design or technical background.",
+                a: "Yes. Like Pebblely, Pocket Director uses an upload, select preset, download workflow. There's no canvas interface or prompt writing required. It's built to be usable without any design or technical background.",
               },
             ].map((faq, i) => (
               <div key={i} className="bg-gray-50 rounded-xl border border-gray-200 p-6">
@@ -287,11 +287,11 @@ export default function PebblelyAlternativePage() {
       <section className="bg-indigo-600 py-20 px-4">
         <div className="max-w-2xl mx-auto text-center text-white">
           <h2 className="text-4xl font-extrabold mb-4">
-            More Styles, More Formats, Lower Price
+            More Styles, Video Output, Lower Price
           </h2>
           <p className="text-indigo-200 text-lg mb-8">
-            Start with 200 free credits — no credit card, no commitment. Generate your first 8
-            images in under 4 minutes.
+            Start with 200 free credits, no credit card, no commitment. Your first 8 images take
+            about 4 minutes.
           </p>
           <a
             href="https://app.pocketdirectorai.com/signup"

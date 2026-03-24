@@ -40,13 +40,13 @@ export default function FlairAiAlternativePage() {
             Flair AI Alternative
           </div>
           <h1 className="text-5xl font-extrabold leading-tight tracking-tight mb-6 text-gray-900">
-            Flair AI Alternative —{" "}
-            <span className="text-indigo-600">Simpler, Faster, and More Affordable</span>
+            Flair AI Alternative:{" "}
+            <span className="text-indigo-600">Simpler, Faster, Lower Cost</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Flair AI is powerful — but it requires prompt engineering, doesn't generate video, and
-            costs more. Pocket Director gives you professional AI product photos and UGC videos with
-            a workflow anyone can use on day one.
+            Flair AI produces strong results if you know how to write prompts. If you don't, or if
+            you need video output, it's not the right fit. Pocket Director uses a preset-based
+            workflow that anyone can pick up on day one, and it covers both photos and UGC video ads.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -65,22 +65,20 @@ export default function FlairAiAlternativePage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-6">What Is Flair AI?</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Flair AI is a canvas-based AI product photography tool aimed at creative e-commerce
-            teams and designers. It offers a flexible drag-and-drop interface where users can place
-            products on a canvas and use text prompts to describe the scene, lighting, and mood they
-            want to generate.
+            Flair AI is a canvas-based AI product photography tool built for creative e-commerce
+            teams and designers. Users place products on a canvas and write text prompts describing
+            the scene, lighting, and mood they want to generate.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            For users who are comfortable writing detailed AI prompts and want granular creative
-            control, Flair AI delivers strong results. It's particularly popular among brands with
-            in-house designers who want to push creative boundaries and direct every aspect of the
-            generated scene.
+            For teams with designers who are comfortable with prompt-driven workflows, Flair delivers
+            genuinely strong results. It's the tool to pick if you want granular creative control
+            and have the technical background to get consistent output from text prompts.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            However, Flair's workflow has a meaningful learning curve. The canvas interface and
-            prompt-driven generation means non-technical users — or teams without dedicated design
-            resources — often struggle to get consistent results. Flair also lacks video generation
-            entirely, and its pricing tends to run higher than alternatives.
+            The learning curve is real, though. Non-technical users and teams without a dedicated
+            designer often struggle to get consistent results because the output depends heavily on
+            prompt quality. Flair has no video generation, and its pricing runs higher than most
+            alternatives.
           </p>
         </div>
       </section>
@@ -89,24 +87,24 @@ export default function FlairAiAlternativePage() {
       <section className="bg-amber-50 border-y border-amber-100 py-12 px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-xl font-bold text-gray-900 mb-6 text-center">
-            The Core Problem with Flair AI
+            Where Flair AI Falls Short for Most E-Commerce Teams
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
                 label: "Requires Prompt Engineering",
                 detail:
-                  "To get good results in Flair, you need to write detailed text prompts. That's a skill set most e-commerce operators and Shopify brand owners don't have — and don't want to learn.",
+                  "Getting consistent results in Flair means writing detailed text prompts. Most e-commerce operators and Shopify brand owners don't have that skill and would rather not spend time developing it.",
               },
               {
                 label: "No Video Generation",
                 detail:
-                  "Flair is photos only. As video ads become non-negotiable for TikTok and Meta, that's an increasingly large gap for brands running paid social campaigns.",
+                  "Flair is photos only. TikTok and Meta campaigns increasingly depend on video, so brands using Flair have to maintain a second tool for video creative.",
               },
               {
                 label: "Higher Cost",
                 detail:
-                  "Flair's pricing tiers run higher than Pocket Director's. For teams that want to scale across a full catalog, the per-seat or per-generation costs add up quickly.",
+                  "Flair's pricing starts around $38/month vs. Pocket Director's $15.20/month. For teams scaling across a full catalog, that difference adds up.",
               },
             ].map((item) => (
               <div key={item.label} className="bg-white rounded-xl p-5 border border-amber-200">
@@ -218,33 +216,33 @@ export default function FlairAiAlternativePage() {
       <section className="bg-gray-50 py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center">
-            Why Teams Switch from Flair to Pocket Director
+            What Changes When You Move from Flair to Pocket Director
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
                 icon: "⚡",
-                title: "Upload → Style → Done. No Prompts.",
+                title: "Upload, Pick a Style, Download. No Prompts.",
                 description:
-                  "Pocket Director's preset-based workflow means anyone on your team can generate professional product images from day one — no prompt engineering knowledge, no canvas setup, no learning curve. Upload your product. Pick a style. Download 8 images.",
+                  "Pocket Director's preset-based workflow means anyone on your team can generate professional product images from day one. No prompt engineering, no canvas setup, no learning curve. Upload your product, pick a style, download 8 images.",
               },
               {
                 icon: "🎬",
-                title: "Video That Flair Simply Doesn't Have",
+                title: "Video That Flair Doesn't Have",
                 description:
-                  "TikTok and Meta reward video content. Pocket Director generates authentic UGC-style video ads from the same product upload as your photos. Flair has no video capability — which means a separate tool, separate workflow, separate cost.",
+                  "Pocket Director generates UGC-style video ads from the same product upload as your photos. Flair has no video output, which means a separate tool, a separate workflow, and a separate cost if video is part of your ad strategy.",
               },
               {
                 icon: "💵",
-                title: "60% Lower Starting Price",
+                title: "About 60% Lower Starting Price",
                 description:
-                  "At $15.20/month vs. Flair's ~$38/month entry point, Pocket Director saves brands over $270/year just on the subscription — before accounting for the time saved by the simpler workflow.",
+                  "Pocket Director starts at $15.20/month vs. Flair's ~$38/month. That's over $270/year in savings on the subscription alone, before counting the time saved by not having to write and iterate on prompts.",
               },
               {
                 icon: "📦",
-                title: "Consistent Catalog Results",
+                title: "More Consistent Catalog Results",
                 description:
-                  "Because Pocket Director uses curated presets rather than freeform prompts, results are more consistent across your entire product catalog. Every product gets the same professional treatment, not a different output depending on how well the prompt was written.",
+                  "Because Pocket Director uses curated presets rather than freeform prompts, output is consistent across your product catalog. You get the same professional treatment for every product, not results that vary based on how well a prompt was written.",
               },
             ].map((reason) => (
               <div
@@ -298,15 +296,15 @@ export default function FlairAiAlternativePage() {
             {[
               {
                 q: "Can Pocket Director match Flair's creative flexibility?",
-                a: "Pocket Director uses 500+ curated presets rather than freeform prompts. This trades some creative flexibility for dramatically better consistency, ease of use, and speed. For most e-commerce use cases — clean PDPs, lifestyle shots, A+ content — the preset approach is actually the better workflow.",
+                a: "Flair gives you more creative control through freeform prompts. Pocket Director trades that flexibility for consistency, speed, and ease of use. For most e-commerce use cases, PDPs, lifestyle shots, A+ content, the preset approach produces reliable results without the iteration time. If you want pixel-level creative control, Flair is probably still the better tool.",
               },
               {
                 q: "Is Pocket Director suitable for teams without designers?",
-                a: "Yes — that's the core advantage. Pocket Director is built for e-commerce operators, brand managers, and sellers who don't have design backgrounds. No design skills, no prompt writing skills, no photo editing skills needed.",
+                a: "Yes, that's the main difference in workflow. Pocket Director is built for e-commerce operators, brand managers, and sellers who don't have design backgrounds. No design skills, no prompt writing, no photo editing experience needed.",
               },
               {
                 q: "Does Pocket Director integrate with Shopify or Amazon Seller Central?",
-                a: "Generated images can be downloaded and uploaded directly to any platform — Shopify, Amazon Seller Central, Etsy, or any other marketplace. We're actively building direct integrations for major platforms.",
+                a: "Generated images can be downloaded and uploaded directly to any platform, including Shopify, Amazon Seller Central, Etsy, or any other marketplace. Direct platform integrations are in development.",
               },
             ].map((faq, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-200 p-6">
@@ -322,11 +320,11 @@ export default function FlairAiAlternativePage() {
       <section className="py-20 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl font-extrabold mb-4">
-            See the Difference in Your First Session
+            Try It Before You Commit
           </h2>
           <p className="text-gray-500 text-lg mb-8">
             200 free credits, no credit card, no learning curve. Upload a product and have
-            professional images ready in 4 minutes.
+            images ready in about 4 minutes.
           </p>
           <a
             href="https://app.pocketdirectorai.com/signup"
