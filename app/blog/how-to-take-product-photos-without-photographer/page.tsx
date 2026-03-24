@@ -11,16 +11,26 @@ export const metadata: Metadata = {
 
 const schema = {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  name: "How to Create Product Photos Without a Photographer",
+  "@type": "Article",
+  headline: "How to Create Product Photos Without a Photographer (Step-by-Step Guide)",
   description: "Step-by-step guide to creating professional product photos without a photographer using AI tools.",
-  totalTime: "PT30M",
-  step: [
-    { "@type": "HowToStep", name: "Set up simple lighting", text: "Use natural window light or a cheap ring light for your initial product capture." },
-    { "@type": "HowToStep", name: "Take a clean product photo", text: "Photograph your product against any clean background — a white poster board works fine." },
-    { "@type": "HowToStep", name: "Upload to Pocket Director AI", text: "Upload your photo and select your target platform (Amazon, Shopify, Instagram, etc.)." },
-    { "@type": "HowToStep", name: "Choose a style", text: "Select from 500+ professional scenes and styles optimized for your platform." },
-    { "@type": "HowToStep", name: "Download your professional images", text: "Download 8 professional product photos with full commercial rights in under 4 minutes." },
+  datePublished: "2026-03-08",
+  dateModified: "2026-03-08",
+  author: {
+    "@type": "Person",
+    name: "Pocket Director AI Team",
+    url: "https://pocketdirectorai.com/blog",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Pocket Director AI",
+    url: "https://pocketdirectorai.com",
+  },
+  keywords: [
+    "product photography without photographer",
+    "DIY product photos",
+    "AI product photography",
+    "how to take product photos",
   ],
 };
 

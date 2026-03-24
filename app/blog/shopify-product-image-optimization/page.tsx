@@ -45,41 +45,6 @@ const articleSchema = {
   ],
 };
 
-const howToSchema = {
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  name: "How to Optimize Shopify Product Images for More Sales",
-  description:
-    "A step-by-step guide to optimizing product images on Shopify for higher conversion rates.",
-  step: [
-    {
-      "@type": "HowToStep",
-      name: "Use the correct image dimensions",
-      text: "Upload images at 2048 x 2048px (1:1 square). Shopify recommends square images for consistent display across all themes. Minimum is 800 x 800px, but higher resolution gives buyers the ability to zoom.",
-    },
-    {
-      "@type": "HowToStep",
-      name: "Optimize file size for page speed",
-      text: "Keep images under 500KB for fast load times. Shopify accepts up to 20MB but large files hurt page speed scores. Use WebP format — Shopify converts images automatically.",
-    },
-    {
-      "@type": "HowToStep",
-      name: "Include all required image types",
-      text: "Include 5–8 images per product: a main image on a clean/white background, at least one lifestyle image showing the product in context, a detail shot, a scale reference, and an in-use image.",
-    },
-    {
-      "@type": "HowToStep",
-      name: "A/B test your main product image",
-      text: "Use Intelligems or Lucky Orange to split test different main images. Run tests for at least 2 weeks with a minimum of 200 visits. Change one variable at a time — background style, angle, or lifestyle vs product-only.",
-    },
-    {
-      "@type": "HowToStep",
-      name: "Optimize for mobile",
-      text: "70% of Shopify traffic is mobile. Use simple compositions with clear product focus. Avoid text in images — it is too small to read on mobile screens.",
-    },
-  ],
-};
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -125,10 +90,6 @@ export default function ShopifyProductImageOptimization() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       <script
         type="application/ld+json"
